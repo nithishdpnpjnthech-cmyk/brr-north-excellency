@@ -69,12 +69,20 @@ section.grey,
 .locationBox1,
 .pricingTable,
 .panel.panel-default,
-.latest-post-inner,
 .amenities-gallery,
 .modal-content {
     background: #ffffff !important;
     border: 1px solid var(--brand-border) !important;
     box-shadow: 0 14px 28px rgba(18, 48, 146, 0.14) !important;
+}
+
+/* Keep gallery slide image layer visible (prevent white panel overlay). */
+.slider-container .latest-post-inner,
+.slider-container .latest-post .latest-post-inner,
+.slider-container .latest-post .latest-post-inner:hover {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
 }
 
 /* Overview icon cards: enforce high contrast for pale icon assets */
@@ -136,6 +144,17 @@ section.grey,
     background: linear-gradient(135deg, #173a8c, var(--brand-primary)) !important;
     border-color: var(--brand-primary) !important;
     color: #ffffff !important;
+}
+
+/* Pricing cards: remove colored fill from the card section */
+.pricingTable .pricingTable-header,
+.pricingTable .pricing-content {
+    background: transparent !important;
+}
+
+.pricingTable .title,
+.pricingTable .price-value {
+    color: var(--brand-text) !important;
 }
 
 #accordion a {
