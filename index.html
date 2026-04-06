@@ -456,6 +456,35 @@
             font-weight: 500;
         }
 
+        .blur-enquiry-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .blur-enquiry-card img {
+            filter: blur(4px);
+            transform: scale(1.02);
+        }
+
+        .blur-enquiry-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(15, 37, 95, 0.24);
+        }
+
+        .blur-enquiry-btn {
+            min-width: 160px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            box-shadow: 0 12px 24px rgba(15, 37, 95, 0.28);
+            border-radius: 8px;
+            padding: 10px 18px;
+        }
+
         .form-btn,
         .price-btn,
         .btn.interested,
@@ -639,7 +668,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-md-2 ">
                 <div class="pull-left logo-wrapper hidden-xs">
-                    <a href="tel:+917353815999" rel="home" class="pull-left" style="text-decoration: none;">
+                    <a href="tel:+919731607426" rel="home" class="pull-left" style="text-decoration: none;">
     <span style="
         display: inline-block;
         font-size: 15px;
@@ -653,7 +682,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     "
     onmouseover="this.style.backgroundColor='#4069e3'; this.style.color='white';"
     onmouseout="this.style.backgroundColor='#eef3ff'; this.style.color='#4069e3';">
-         +91-7353815999
+         +91-9731607426
     </span>
 </a>
 
@@ -1592,57 +1621,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                                                         <!-- 2 BHK Tab -->
                                                         <div role="tabpanel" class="tab-pane fade active in" id="interior">
-                                                            <div class="amenities-gallery mg-mb">
+                                                            <div class="amenities-gallery mg-mb blur-enquiry-card">
                                                                 <img src="images/gallery/floor/G-FLOOR_compressed_page-0001.jpg" alt="ground floor">
-                                                                <a href="images/gallery/floor/G-FLOOR_compressed_page-0001.jpg" data-fancybox="villas">
-                                                                    <div class="ami-overlay">
-                                                                        <div class="d-flex"></div>
-                                                                    </div>
-                                                                </a>
+                                                                <div class="blur-enquiry-overlay">
+                                                                    <a href="javascript:void(0);" class="btn btn-default price-btn blur-enquiry-btn price-click" onclick="open_popup('Enquiry', 'Please fill the form below to get detailed floor plan information.')">Enquiry</a>
+                                                                </div>
                                                             </div>
                                                         </div>
 
                                                         <!-- 3 BHK Tab -->
                                                         <div role="tabpanel" class="tab-pane fade" id="exterior">
-                                                            <div class="amenities-gallery mg-mb">
+                                                            <div class="amenities-gallery mg-mb blur-enquiry-card">
                                                                 <img src="images/gallery/floor/FIRSTFLOR.jpg" alt="first floor">
-                                                                <a href="images/gallery/floor/FIRSTFLOR.jpg" data-fancybox="villas">
-                                                                    <div class="ami-overlay">
-                                                                        <div class="d-flex"></div>
-                                                                    </div>
-                                                                </a>
+                                                                <div class="blur-enquiry-overlay">
+                                                                    <a href="javascript:void(0);" class="btn btn-default price-btn blur-enquiry-btn price-click" onclick="open_popup('Enquiry', 'Please fill the form below to get detailed floor plan information.')">Enquiry</a>
+                                                                </div>
                                                             </div>
                                                         </div>
 
                                                         <div role="tabpanel" class="tab-pane fade" id="ext">
-                                                            <div class="amenities-gallery mg-mb">
+                                                            <div class="amenities-gallery mg-mb blur-enquiry-card">
                                                                 <img src="images/gallery/floor/SECONDFLOOR.jpg" alt="second floor">
-                                                                <a href="images/gallery/floor/SECONDFLOOR.jpg" data-fancybox="villas">
-                                                                    <div class="ami-overlay">
-                                                                        <div class="d-flex"></div>
-                                                                    </div>
-                                                                </a>
+                                                                <div class="blur-enquiry-overlay">
+                                                                    <a href="javascript:void(0);" class="btn btn-default price-btn blur-enquiry-btn price-click" onclick="open_popup('Enquiry', 'Please fill the form below to get detailed floor plan information.')">Enquiry</a>
+                                                                </div>
                                                             </div>
                                                         </div>
 
                                                         <div role="tabpanel" class="tab-pane fade" id="exte">
-                                                            <div class="amenities-gallery mg-mb">
+                                                            <div class="amenities-gallery mg-mb blur-enquiry-card">
                                                                 <img src="images/gallery/floor/FLOORPLAN.jpg" alt="typical floor ">
-                                                                <a href="images/gallery/floor/FLOORPLAN.jpg" data-fancybox="villas">
-                                                                    <div class="ami-overlay">
-                                                                        <div class="d-flex"></div>
-                                                                    </div>
-                                                                </a>
+                                                                <div class="blur-enquiry-overlay">
+                                                                    <a href="javascript:void(0);" class="btn btn-default price-btn blur-enquiry-btn price-click" onclick="open_popup('Enquiry', 'Please fill the form below to get detailed floor plan information.')">Enquiry</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                         <div role="tabpanel" class="tab-pane fade" id="exter">
-                                                            <div class="amenities-gallery mg-mb">
+                                                            <div class="amenities-gallery mg-mb blur-enquiry-card">
                                                                 <img src="images/gallery/floor/MASTER.jpg" alt="typical floor ">
-                                                                <a href="images/gallery/floor/MASTER.jpg" data-fancybox="villas">
-                                                                    <div class="ami-overlay">
-                                                                        <div class="d-flex"></div>
-                                                                    </div>
-                                                                </a>
+                                                                <div class="blur-enquiry-overlay">
+                                                                    <a href="javascript:void(0);" class="btn btn-default price-btn blur-enquiry-btn price-click" onclick="open_popup('Enquiry', 'Please fill the form below to get detailed floor plan information.')">Enquiry</a>
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -1898,7 +1917,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <button class="faq-btn">9. How can I enquire or request details?</button>
                 <div class="faq-content">
                     <p>
-                        Fill in any enquiry form on this page or call us directly at +91 7353815999 for brochure, pricing, and site visit support.
+                        Fill in any enquiry form on this page or call us directly at +91 9731607426 for brochure, pricing, and site visit support.
                     </p>
                 </div>
             </div>
@@ -1978,8 +1997,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                             <div class="callup">
                                 <p>For More Details Please Call Us On</p>
-                                <a href="tel:7353815999
-"><i class="fa fa-phone f-icon" aria-hidden="true"></i> 7353815999
+                                <a href="tel:9731607426
+"><i class="fa fa-phone f-icon" aria-hidden="true"></i> 9731607426
                                 </a>
                             </div>
                         </form>
@@ -2013,6 +2032,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <!-- <a href="https://www.brigadegroup.com/terms" target="_blank" class="disclaimer-btn">Terms &
                         Conditions</a> -->
                     <h2>COPYRIGHT @2025. PJN TECHNOLOGIES . ALL RIGHTS RESERVED. <a href="javascript:void(0);" class="disc-click">Disclaimer</a></h2>
+                    <p>Marketed by Dakshina Reality</p>
                     <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
                     <a href="resources.html" target="_blank" style="display: none;">hidden resources</a>
 
@@ -2027,7 +2047,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="col-lg-12 col-sm-12 col-xs-12 fixed-footer-cust hidden-md hidden-lg hidden-sm">
         <div class="container">
             <div class="col-lg-6 col-sm-6 col-xs-6 div-line pd0">
-                <a href="tel:7353815999
+                <a href="tel:9731607426
 " class="fix-link callme">
                     <i class="fa fa-phone f-icon" aria-hidden="true"></i> CALL NOW
                     </a>
